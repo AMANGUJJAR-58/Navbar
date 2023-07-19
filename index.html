@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        .navbar li :hover{
+            color: red;
+        }
+       .navbar li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+       }
+       .search{
+        padding: 12px 75px;
+        float: right;
+        color :white;
+       }
+       .navbar input{
+        border: 2px solid black;
+        border-radius: 14px;
+        padding: 3px 17px;
+       }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li id="home"><a href="#">Home</a></li>
+            <li id="about"><a href="#">About</a></li>
+            <li id="Links"><a href="#">Links</a></li>
+            <li id="Servics"><a href="#">Servics</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search this website">
+            </div>
+        </ul>
+    </nav>
+</body>
+
+</html>
