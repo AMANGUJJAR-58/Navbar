@@ -4,53 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-    <style>
-        .navbar{
-            background-color: black;
-            border-radius: 30px;
-        }
-        .navbar ul{
-            overflow: auto;
-        }
-        .navbar li{
-            float: left;
-            list-style: none;
-            margin: 13px 20px;
-        }
-        .navbar li :hover{
-            color: red;
-        }
-       .navbar li a{
-        padding: 3px 3px;
-        text-decoration: none;
-        color: white;
-       }
-       .search{
-        padding: 12px 75px;
-        float: right;
-        color :white;
-       }
-       .navbar input{
-        border: 2px solid black;
-        border-radius: 14px;
-        padding: 3px 17px;
-       }
-    </style>
+    <script src="https://kit.fontawesome.com/505c4f2ccf.js" crossorigin="anonymous"></script>
+    <title>login form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <ul>
-            <li id="home"><a href="#">Home</a></li>
-            <li id="about"><a href="#">About</a></li>
-            <li id="Links"><a href="#">Links</a></li>
-            <li id="Servics"><a href="#">Servics</a></li>
-            <div class="search">
-                <input type="text" name="search" id="search" placeholder="search this website">
-            </div>
-        </ul>
-    </nav>
+ <div class="container">
+    <h1>Sign up</h1>
+    <div class="box">
+        <i class="fa-solid fa-envelope"></i>
+       <input type="email" name="email" id="email" placeholder="Enter Your Email">       
+    </div>
+    <div class="box">
+        <i class="fa-solid fa-key"></i>
+        <input type="password" name="password" id="password" placeholder="Enter Your password">
+    </div>
+    <button class="btn">Sign In</button>
+</div>
 </body>
 
 </html>
